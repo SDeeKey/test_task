@@ -1,0 +1,22 @@
+.mainFilter {
+
+    img {
+      object-fit: contain;
+    }
+
+  .sidebarAndProducts {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+
+
+    .products {
+      display: flex;
+      width: 80%;
+      overflow: hidden;
+      column-gap: 50px;
+      row-gap: 50px;
+      flex-wrap: wrap;
+    }
+  }
+}

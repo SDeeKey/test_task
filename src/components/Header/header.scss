@@ -1,0 +1,48 @@
+.mainHeader {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+
+
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10%;
+    justify-content: center;
+    align-items: center;
+
+    a{
+      color: black;
+      text-decoration: blue;
+      font-family: poppins, cursive;
+      font-size: 150%;
+    }
+
+
+
+    .cart_counter {
+      display: flex;
+      flex-direction: row;
+      text-decoration: none;
+
+      .cart {
+        width: 40px;
+        z-index: 0;
+
+        &:hover {
+          scale: 0.95;
+        }
+      }
+
+      .counter {
+        color: red;
+        border: 1px solid red;
+        border-radius: 25px;
+        width: auto;
+        padding: 0 10px;
+        margin-left: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.mainCard {
+  display: flex;
+
+  flex-direction: column;
+  width: 20%;
+  min-width: 20%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  box-shadow: -5px 5px 10px #777;
+  margin-left: 20px;
+
+  &:hover {
+    transform: scale(0.95);
+  }
+
+  img {
+    object-fit: contain;
+  }
+
+  .brand_curved_heart {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .curved_heart {
+      width: 30px;
+    }
+  }
+
+  p {
+    font-family: poppins, cursive;
+    font-size: 24px;
+    margin: 5%;
+    overflow: hidden;
+  }
+
+  .value {
+    color: purple;
+    font-size: 30px;
+  }
+;
+}

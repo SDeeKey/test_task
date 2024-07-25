@@ -1,0 +1,19 @@
+.sidebar {
+  width: 20%;
+  height: 100%;
+  position: sticky;
+  top: 50px;
+  box-shadow: -5px 5px 10px #777;
+  border-radius: 25px;
+
+  p {
+    font-family: poppins, cursive;
+    font-size: 24px;
+    margin: 10% 0;
+    text-align: center;
+    &:hover{
+      background-color: rgba(0, 0, 0, 0.1);
+      border-radius: 50px;
+    }
+  }
+}
